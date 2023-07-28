@@ -29,8 +29,8 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 
 * wip...
-* 230728piu_c upload from TLP `mb-apm...json`
-* 230728piu_b upload from TLP `articles_register.json`
+* 230728piu_c created `data_sources/mb-apm-data/` and uploaded from TLP `unit_01.json`
+* 230728piu_b uploaded from TLP `articles_register.json`
 * 230728piu_a created `doc_src/data_sources/` directory for data sources
 
 
