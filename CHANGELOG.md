@@ -26,8 +26,9 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 * tbd... upload from TLP `articles_directory.json`
 * tbd... upload from TLP `mb-apm...json`
 * tbd... upload from RENPO `products...json`
-* tbd... create `doc_src/data_sources/` directory for data sources
+
 
 * wip...
+* wip... 230728piu_a created `doc_src/data_sources/` directory for data sources
 
 
