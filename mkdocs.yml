@@ -1,14 +1,10 @@
-site_name: Learning @ RENware Software Systems
+site_name: RENware Data API
 site_author: 'Petre Iordanescu, RENware Software Systems'
 copyright: 'Copyright (c) RENware Software Systems'
 
 
 nav:
     - Home: 'index.md'
-    - Learning catalog: 'learning_catalog.md'
-    - About platform: 'about.md'
-    - RENware Software Systems: 'http://www.renware.eu'
-    #- Full TLP Manual (PDF): 'pdfs/print_page.html/print_page.pdf' #NOTE_no_print_site_in_project
 
 
 
@@ -30,8 +26,7 @@ markdown_extensions:
     - def_list
     - attr_list
     - md_in_html
-    - pymdownx.tasklist:
-        custom_checkbox: true
+
 
 
 #NOTE required to render `mermaid` diagrams
@@ -45,50 +40,11 @@ extra_javascript:
 plugins:
     - search
     - include-markdown
-    #- pdf-export #NOTE this version does not render mermaid in PDF docs
-    #- print-site: # NO PRINT SITE in `project` #NOTE_no_print_site_in_project
-        #add_to_navigation: true #NOTE_no_print_site_in_project
-        #print_page_title: 'Full ArtK Manual' #NOTE_no_print_site_in_project
-        #add_full_urls: true #NOTE_no_print_site_in_project
-        #add_table_of_contents: true #NOTE_no_print_site_in_project
-    - pdf-with-js:
-        enable: true
-    - git-revision-date-localized #NOTE plugin that enables displaying the date of the last git modification of a page - see `https://github.com/timvink/mkdocs-git-revision-date-localized-plugin`
-
 
 
 #NOTE provide material theme
 theme:
-    logo: pictures/REN_TLP_logo.png
     name: material
-    features:
-        - navigation.tabs #NOTE level 2 on left navigation side bar, level 1 on top navigation bar
-        - navigation.tracking
-        - navigation.tabs.sticky
-        - navigation.path
-        - toc.integrate #NOTE integrate TOC in left navbar
-        #- navigation.footer #NOTE do not enable this. It will show "Next & Prev" links on footer, useless for this portal...
-    palette:
-        primary: deep purple # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/ for other color options
-    icon:
-        admonition:
-            note: fontawesome/solid/note-sticky
-            abstract: fontawesome/solid/book
-            info: fontawesome/solid/circle-info
-            tip: fontawesome/solid/bullhorn
-            success: fontawesome/solid/check
-            question: fontawesome/solid/circle-question
-            warning: fontawesome/solid/triangle-exclamation
-            failure: fontawesome/solid/bomb
-            danger: fontawesome/solid/skull
-            bug: fontawesome/solid/robot
-            example: fontawesome/solid/flask
-            quote: fontawesome/solid/quote-left
-
-
-
-#NOTE or can use readthedocs theme but should check mermaid diagrams
-# theme: readthedocs
 
 
 
