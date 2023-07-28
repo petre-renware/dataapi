@@ -1,6 +1,6 @@
 hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
-**Company Data APU**
+**Company Data API**
 
 * Last released version: #FIXME what was the last one?
 
@@ -21,6 +21,11 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 ## 1.0
 
 #### 1.0.1 REN Produtcs and Articles
+
+* tbd... upload from TLP `articles_directory.json`
+* tbd... upload from TLP `mb-apm...json`
+* tbd... upload from RENPO `products...json`
+* tbd... create `doc_src/data_sources/` directory for data sources
 
 * wip...
 
