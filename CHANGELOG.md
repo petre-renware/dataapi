@@ -22,6 +22,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 #### 1.0.1 REN Produtcs and Articles
 
+* tbd. frst index page is a catalog of catalogs of API route and what they provide
 * tbd... upload from TLP `articles_directory.json`
 * tbd... upload from TLP `mb-apm...json`
 * tbd... upload from RENPO `products...json`
