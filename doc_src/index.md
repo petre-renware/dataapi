@@ -4,12 +4,23 @@
 
 # RENware Data API
 
+
 ## Learning data
 
-* [Articles register](data_sources/articles_register.json) (`...base_url.../data_sources/articles_register.json`) - type:  `HTTP REST`, methods: `GET`
+* [Articles register](data_sources/articles_register.json)
+    * path: `...base_url.../data_sources/articles_register.json`)
+    * type:  `HTTP REST`
+    * methods: `GET`
+
 * MB APM course:
-    * [UNIT 01](data_sources/mb-apm-data/unit_01.json) (`...base_url.../data_sources/mb-apm-data/unit_01.json`) - type:  `HTTP REST`, methods: `GET`
+    * [UNIT 01](data_sources/mb-apm-data/unit_01.json)
+        * path: `...base_url.../data_sources/mb-apm-data/unit_01.json`)
+        * type:  `HTTP REST`
+        * methods: `GET`
+
     * UPCOMING next units...
+
+
 
 
 
