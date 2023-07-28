@@ -25,6 +25,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 ### (#FIXME wip...) 1.0.1-released REN Produtcs and Articles
 
 * tbd... upload from RENPO `products...json`
+* tbd... rebuild & deploy site
 
 
 * wip...
