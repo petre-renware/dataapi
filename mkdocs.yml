@@ -44,8 +44,16 @@ plugins:
 
 #NOTE provide material theme
 theme:
+    logo: pictures/dataAPI_logo.png
     name: material
-
+    palette:
+        primary: grey # see https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/ for other color options
+    features:
+        #- navigation.tabs #NOTE level 2 on left navigation side bar, level 1 on top navigation bar
+        #- navigation.tracking
+        #- navigation.tabs.sticky
+        #- navigation.path
+        - toc.integrate #NOTE integrate TOC in left navbar
 
 
 #NOTE directory where start to search or markdown sources
