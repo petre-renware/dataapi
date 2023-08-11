@@ -4,17 +4,41 @@
 
 # RENware Data API
 
+Company public data API version 1.0.
+
+
+
 
 ## Learning data
 
-
-* [Articles register](data_sources/articles_register.json)
+* [Articles register 1.0.0](data_sources/articles/articles_register.json)
 <small markdown>
 ??? info "route details"
+    * path: `...base_url.../data_sources/articles/articles_register.json`
+    * type:  `HTTP REST`
+    * methods: `GET`
+</small>
+
+
+
+* [Article categories 1.0.0](data_sources/articles/article_categories.json)
+<small markdown>
+??? info "route details"
+    * path: `...base_url.../data_sources/articles/article_categories.json
+    * type:  `HTTP REST`
+    * methods: `GET`
+</small>
+
+
+
+* ***DEPRECATED*** [Articles register initial version](data_sources/articles_register.json)
+<small markdown>
+??? info "***DEPRECATED*** route details"
     * path: `...base_url.../data_sources/articles_register.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
+
 
 
 * MB APM course [UNIT 01](data_sources/mb-apm-data/unit_01.json)
@@ -24,6 +48,7 @@
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
+
 
 * ... MB APM course upcoming next units ...
 

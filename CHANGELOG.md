@@ -22,19 +22,26 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 ## 1.0
 
-### (#FIXME wip...) 1.?.? (last was 1.0.0)
+* tbd... at a time drop or keep with name changed (as v0.99) old `articles_register.json` or move to a DEPRECATED area
 
-* wip... (last entry 230729piu_b)
-
-
+### 1.0.2 release ...same as 1.0.1 but for xxx (#NOTE wip...)
 
 
 
 
+### 1.0.1-release articles JSON broken down to entity level (230811 18:00)
+
+* 230811piu_d review all articles API, refactored main JSON data entries as key **`data`**
+* 230811piu_c refer new data src created in `230811piu_a`
+* 230911piu_b introduced meta info *entity `name` & `description`* for entities created in `230811piu_a`
+* 230811piu_a break _`articles_register.json`_ JSON in elementary entities and saved them in directory `articles/` ==>
+  * `article_categories.json`
+  * `articles_register.json`
 
 
 
-### 1.0.0-released REN Products, Articles, MB APM course UNIT_01
+
+### 1.0.0-release REN Products, Articles, MB APM course UNIT_01
 
 * 230729piu_b change `index.md` API routes catalog to show route details as drill down admonition
 * 230729piu_a upload from _RENpo_ `portal_structure.json` and extracted ONLY **PRODUCTS REGISTER** as `products_register.json`
