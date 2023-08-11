@@ -1,9 +1,9 @@
 {
  "meta_info":{
-	"last_update":"11-aug-2023",
-	"version":"1.0.0",
- "name": "article_categories",
- "description": "Article Categories"
+	"last_update": "11-aug-2023",
+	"version": "1.0.0",
+   "name": "article_categories",
+   "description": "Article Categories"
 	},
 	"categories":[
 		{
