@@ -1,7 +1,9 @@
 {
     "meta_inf": {
         "version": "1.0.0",
-        "last_update": "11-aug-2023"
+        "last_update": "11-aug-2023",
+    "name": "articles_register",
+    "description": "Articles Register"
     },
     "articles": [
         {
