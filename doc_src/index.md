@@ -28,8 +28,6 @@
 
 
 
-
-
 * ***DEPRECATED*** [Articles register initial version](data_sources/articles_register.json)
 <small markdown>
 ??? info "route details"
@@ -40,9 +38,6 @@
 
 
 
-
-
-
 * MB APM course [UNIT 01](data_sources/mb-apm-data/unit_01.json)
 <small markdown>
 ??? info "route details"
@@ -50,6 +45,7 @@
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
+
 
 * ... MB APM course upcoming next units ...
 
