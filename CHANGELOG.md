@@ -22,13 +22,16 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 ## 1.0
 
-### 1.0.1-release punctual entity level JSON (#NOTE wip...)
+### 1.0.1-release articles register JSON broken down to entity level (#NOTE wip...)
 
 * wip... 
 
 
 * tbd... drop or keep with name changed (as v0.99) old `articles_register.json`
 * tbd... review & referentiate new data src created in `230811piu_a`
+
+
+* wip... 230911piu_b introduce meta info *entity `name` & `description`* 
 * 230811piu_a break _`articles_register.json`_ JSON in elementary entities and saved them in directory `articles/` ==>
   * `article_categories.json`
   * `articles_register.json`
