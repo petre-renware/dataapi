@@ -1,7 +1,10 @@
 {
-    "_default": {},
-    "articles": {
-        "0001": {
+    "meta_inf": {
+        "version": "1.0.0",
+        "last_update": "11-aug-2023"
+    },
+    "articles": [
+        {
             "art_date": "2020/12",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -14,7 +17,7 @@
             "language": "RO",
             "title": "PROJECTS APPROACH IN SOFTWARE SYSTEMS IMLEMENTATION (part 1)"
         },
-        "0002": {
+        {
             "art_date": "2018/12",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -26,7 +29,7 @@
             "language": "RO",
             "title": "Think System Software Architectures For Future Easy Hardware Scaling"
         },
-        "0003": {
+        {
             "art_date": "2011/08",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -38,7 +41,7 @@
             "language": "EN",
             "title": "PROJECT POC - HOW TO CALCULATE IT?"
         },
-        "0004": {
+        {
             "art_date": "2020/01/1",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -50,7 +53,7 @@
             "language": "RO",
             "title": "00a - 101-JR.new@IT.emp - introducere"
         },
-        "0005": {
+        {
             "art_date": "2020/01/2",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -63,7 +66,7 @@
             "language": "RO",
             "title": "00a - 101-JR.new@IT.emp - calculatorul"
         },
-        "0006": {
+        {
             "art_date": "2020/08",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -76,7 +79,7 @@
             "language": "RO",
             "title": "Evolutia arhitecturilor calculatoarelor (1)"
         },
-        "0007": {
+        {
             "art_date": "2019/12",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -89,7 +92,7 @@
             "language": "RO",
             "title": "Ordering Raw Data and System Time for Read Only devices"
         },
-        "0008": {
+        {
             "art_date": "2021/01",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -102,7 +105,7 @@
             "language": "RO",
             "title": "Evolutia arhitecturilor calculatoarelor (2)"
         },
-        "0009": {
+        {
             "art_date": "2021/07",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -115,7 +118,7 @@
             "language": "EN",
             "title": "Graps. Brief. Overview"
         },
-        "0010": {
+        {
             "art_date": "2021/08",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -128,7 +131,7 @@
             "language": "EN",
             "title": "Distributed Systems. Brief. Overview"
         },
-        "0011": {
+        {
             "art_date": "2021/08",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -140,7 +143,7 @@
             "language": "EN",
             "title": "Representing relational data as JSON"
         },
-        "0012": {
+        {
             "art_date": "2021/08",
             "author": "Petre IORDANESCU",
             "categories": [
@@ -153,62 +156,5 @@
             "language": "EN",
             "title": "Distributed systems. Key issues"
         }
-    },
-    "categories": {
-        "01": {
-            "id": "SWDSGNARCH",
-            "name": "Software Design & Architectures",
-            "section_seqord": 30
-        },
-        "02": {
-            "id": "EMB-MCU",
-            "name": "Embedded Systems & Microcontroller Units ",
-            "section_seqord": 40
-        },
-        "03": {
-            "id": "PM",
-            "name": "Project Management",
-            "section_seqord": 20
-        },
-        "04": {
-            "id": "COBAS",
-            "name": "First Steps in Computers",
-            "section_seqord": 10
-        },
-        "05": {
-            "id": "COARCH",
-            "name": "Computer Architectures",
-            "section_seqord": 50
-        },
-        "06": {
-            "id": "CONETW",
-            "name": "Computer Networks",
-            "section_seqord": 60
-        },
-        "07": {
-            "id": "SWIMPL",
-            "name": "Software Systems Implementation",
-            "section_seqord": 25
-        },
-        "08": {
-            "id": "SWALG",
-            "name": "Algorithms",
-            "section_seqord": 35
-        },
-        "09": {
-            "id": "101JR",
-            "name": "101 JR.new@IT.emp",
-            "section_seqord": 999
-        },
-        "10": {
-            "id": "DISYS",
-            "name": "Distributed Systems",
-            "section_seqord": 34
-        },
-        "11": {
-            "id": "DTSTR",
-            "name": "Data Structures",
-            "section_seqord": 40
-        }
-    }
+    ]
 }
