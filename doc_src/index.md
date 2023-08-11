@@ -24,7 +24,7 @@ Company public data API version 1.0.
 * [Article categories 1.0.0](data_sources/articles/article_categories.json)
 <small markdown>
 ??? info "route details"
-    * path: `...base_url.../data_sources/articles/article_categories.json
+    * path: `...base_url.../data_sources/articles/article_categories.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
