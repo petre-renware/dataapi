@@ -31,7 +31,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 * tbd... review & referentiate new data src created in `230811piu_a`
 
 
-* wip... 230911piu_b introduce meta info *entity `name` & `description`* 
+* 230911piu_b introduced meta info *entity `name` & `description`* for entities created in `230811piu_a`
 * 230811piu_a break _`articles_register.json`_ JSON in elementary entities and saved them in directory `articles/` ==>
   * `article_categories.json`
   * `articles_register.json`
