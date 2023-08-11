@@ -13,7 +13,9 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 <small markdown>
 * For version code structure meaning see SDEVEN methodology document (*sic !*) :)
 
-* with (F) are marked those changes that are features in order to be copied in a RELNOTE file
+* with (F) are marked items that are features in order to be copied in a RELNOTE file
+
+* with (B) are marked items thar are bug fixed previous versions
 
 * -#NOTE ____ PUBLISHING IS MADE ON `dataapi.renware.eu` from `PUBLISHING` branch , wheen committed
 
@@ -25,6 +27,13 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 * tbd... at a time drop or keep with name changed (as v0.99) old `articles_register.json` or move to a DEPRECATED area
 
 ### 1.0.2 release ...same as 1.0.1 but for xxx (#NOTE wip...)
+
+* wip...
+
+* (B) 230811piu_e `index.md` fix url path representation in HTML
+
+
+
 
 
 
