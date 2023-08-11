@@ -8,17 +8,17 @@
 ## Learning data
 
 
-* -#FIXME [Articles register](data_sources/articles_register.json)
+* [Articles register 1.0.0](data_sources/articles/articles_register.json)
 <small markdown>
 ??? info "route details"
-    * path: `...base_url.../data_sources/articles_register.json`
+    * path: `...base_url.../data_sources/articles/articles_register.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
 
 
 
-* [Article categories](data_sources/articles/article_categories.json)
+* [Article categories 1.0.0](data_sources/articles/article_categories.json)
 <small markdown>
 ??? info "route details"
     * path: `...base_url.../data_sources/articles/article_categories.json
