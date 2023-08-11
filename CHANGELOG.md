@@ -26,7 +26,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * wip... 
 
-* wip... 230811piu_a break _`articles_register.json`_ JSON in elementary entities ==>
+* wip... 230811piu_a break _`articles_register.json`_ JSON in elementary entities and saved them in directory `articles/` ==>
   * `article_categories.json`
   * `articles_register.json`
 
