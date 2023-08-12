@@ -4,7 +4,7 @@
 
 # RENware Data API
 
-Company public data API version 1.0.
+**Company public data API version 1.0.**
 
 
 
@@ -30,17 +30,6 @@ Company public data API version 1.0.
 </small>
 
 
-
-* ***DEPRECATED*** [Articles register initial version](data_sources/articles_register.json)
-<small markdown>
-??? info "***DEPRECATED*** route details"
-    * path: `...base_url.../data_sources/articles_register.json`
-    * type:  `HTTP REST`
-    * methods: `GET`
-</small>
-
-
-
 * MB APM course [UNIT 01](data_sources/mb-apm-data/unit_01.json)
 <small markdown>
 ??? info "route details"
@@ -57,17 +46,20 @@ Company public data API version 1.0.
 
 
 
+
+
+
+
 ## Products & Solutions
 
 
-* [Products register](data_sources/products_register.json)
+* [Products register 1.0.0](data_sources/products/products_register.json)
 <small markdown>
 ??? info "Route details"
-    * path: `...base_url.../data_sources/products_register.json`
+    * path: `...base_url.../data_sources/products/products_register.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
-
 
 
 
@@ -90,6 +82,8 @@ Company public data API version 1.0.
 ## Notes & rules
 
 * by `...base_url...` is understood the static URL part of this site, ie **`http://dataapi.renware.eu/`**. Usual followed by a path to specific data
+
+* for [deprecated version go here](deprecated_version.md)
 
 </small>
 

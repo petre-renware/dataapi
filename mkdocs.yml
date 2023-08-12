@@ -5,6 +5,8 @@ copyright: 'Copyright (c) RENware Software Systems'
 
 nav:
     - Home: 'index.md'
+    - DEPRECATED VERSIONS: 'deprecated_version.md'
+
 
 
 
