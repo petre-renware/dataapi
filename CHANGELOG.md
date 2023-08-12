@@ -25,11 +25,19 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 ## 1.0
 
 * tbd... at a time drop or keep with name changed (as v0.99) old `articles_register.json` or move to a DEPRECATED area
+* tbd... at a time drop or keep with name changed (as v0.99) old `products_register.json` or move to a DEPRECATED area
 
-### 1.0.2 release ...same as 1.0.1 but for xxx (#NOTE wip...)
+
+
+### 1.0.2 release products JSON broken down to entity level (#NOTE wip...)
+
+* tbd... add new JSON to `index.md` page and keep ref to old one
+* tbd... rename old key for payload to `data`
+* tbd... add `meta_inf` key with (name, description, version, last update) sub-keys to `product_register`
 
 * wip...
 
+* 230812piu_a moved `products_register` transform its payload data to array (list)
 * (B) 230811piu_e `index.md` fix url path representation in HTML
 
 

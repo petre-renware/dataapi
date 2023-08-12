@@ -1,0 +1,624 @@
+{
+    "product_desc": [
+        {
+            "section_ID": "fb4841be-6643-4f63-a83d-8f195ebb9dcf",
+            "section_category": "BUSINESS CORE OPERATIONS",
+            "section_sname": "RENPMO",
+            "section_dname": "Project Management Office",
+            "project_released": true,
+            "ext_portal": "http://products.ren-pmo.renware.eu/",
+            "project_code_reg_no": "00000123",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/RENPMOlogo.png",
+            "section_seqord": 1,
+            "section_content_type1": [
+                "",
+                "",
+                "content/RENPMO_objectives.html",
+                "content/RENPMO_features.html",
+                "content/RENPMO_roadmap.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "STD Standard Edition",
+                    "product_opsysreq": "Windows, Linux",
+                    "product_license": "see each product",
+                    "product_support": "see features",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "9a4c7e38-db2a-444c-98e8-cf057978e1c7",
+            "section_category": "BUSINESS CORE OPERATIONS",
+            "section_sname": "RENPMS",
+            "section_dname": "Project Management Suite",
+            "project_released": true,
+            "ext_portal": "http://products.ren-pmo.renware.eu/",
+            "project_code_reg_no": "00000100",
+            "project_crt_version": "0.10 - alfa",
+            "product_logo": "pictures/RENPMSlogo.png",
+            "section_seqord": 1,
+            "section_content_type1": [
+                "http://products.ren-pmo.renware.eu/",
+                "http://products.ren-pmo.renware.eu/",
+                "content/RENPMS_objectives.html",
+                "content/RENPMS_features.html",
+                "content/RENPMS_roadmap.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "SLE Standalone Local Edition",
+                    "product_opsysreq": "Windows, Linux",
+                    "product_license": "MIT",
+                    "product_support": "2 days",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                },
+                {
+                    "product_edition_code": "NOE Network Office Edition",
+                    "product_opsysreq": "Windows, Linux",
+                    "product_license": "MIT",
+                    "product_support": "3 days",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                },
+                {
+                    "product_edition_code": "EE Enterprise Edition",
+                    "product_opsysreq": "don't care",
+                    "product_license": "RENw",
+                    "product_support": "by req",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                },
+                {
+                    "product_edition_code": "OVAS Outsourced Value-Added Edition",
+                    "product_opsysreq": "don't care",
+                    "product_license": "RENwVAR",
+                    "product_support": "only VAR",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                },
+                {
+                    "product_edition_code": "DEV Embedded Development Edition",
+                    "product_opsysreq": "don't care",
+                    "product_license": "RENwVAR",
+                    "product_support": "only VAR",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "f12349e8-bbf2-4f42-b89a-b335b16e98aa",
+            "section_category": "BUSINESS CORE OPERATIONS",
+            "section_sname": "POREV",
+            "section_dname": "Project Office Review",
+            "project_released": true,
+            "ext_portal": "http://products.ren-pmo.renware.eu/",
+            "project_code_reg_no": "00000118",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/POREVlogo.png",
+            "section_seqord": 1,
+            "section_content_type1": [
+                "http://products.ren-pmo.renware.eu/",
+                "http://products.ren-pmo.renware.eu/",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "d2a570eb-a04a-47d8-a451-13a034108bce",
+            "section_category": "BUSINESS ANALYTICS",
+            "section_sname": "PG-BOA",
+            "section_dname": "Project Gauges on Board",
+            "project_released": true,
+            "ext_portal": "http://products.ren-pmo.renware.eu/",
+            "project_code_reg_no": "00000117",
+            "project_crt_version": "0.1 - in dev",
+            "product_logo": "pictures/PGBOAlogo.png",
+            "section_seqord": 1,
+            "section_content_type1": [
+                "http://products.ren-pmo.renware.eu/",
+                "http://products.ren-pmo.renware.eu/",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "682b6ef9-ce4e-4fd6-a0c4-b36a6cc5deb0",
+            "section_category": "BUSINESS ANALYTICS",
+            "section_sname": "WeCo4eXL",
+            "section_dname": "Wellness Control for Executive Level",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000103",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 20,
+            "section_content_type1": [
+                "130.01-SKIT - 00000130 WeCo4eXL data-sheet EN.pdf",
+                "wip_uc_911",
+                "content/WeCo4eXL_objectives.html",
+                "content/WeCo4eXL_features.html",
+                "content/WeCo4eXL_roadmap.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "e446304a-4313-4b8f-8b88-771e4d9f90b0",
+            "section_category": "BUSINESS SUPPORT OPERATIONS",
+            "section_sname": "incow",
+            "section_dname": "Information Collecting & Workflow - Survey System",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000120",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/incow_logo.png",
+            "section_seqord": 10,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "5aef4c93-5366-44b2-acc2-b14fe5bbf72e",
+            "section_category": "BUSINESS SUPPORT OPERATIONS",
+            "section_sname": "LOS",
+            "section_dname": "Library Organizer System",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000108",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/LOS_icon.svg",
+            "section_seqord": 20,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "ed424944-855d-4558-ab28-18db237c7828",
+            "section_category": "MIDDLE TIER DISTRIBUTED COMPUTING FRAMEWORKS",
+            "section_sname": "DISCARD-COIN",
+            "section_dname": "Distributed Scalable Raw Data Collector from Interfaces",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000101",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 20,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/DISCARD-COIN_objectives.html",
+                "content/DISCARD-COIN_features.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "13d3cbb8-af43-4bbb-8985-daddfc3ed845",
+            "section_category": "MIDDLE TIER DISTRIBUTED COMPUTING FRAMEWORKS",
+            "section_sname": "ORDSYT",
+            "section_dname": "Ordering Raw Data & System Time",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000105",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 30,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "49fc9050-1e99-4846-a987-996cf96e807d",
+            "section_category": "BUSINESS SUPPORT OPERATIONS",
+            "section_sname": "USLAS",
+            "section_dname": "Universal Sequencer Library Adaptable Stateful",
+            "project_released": true,
+            "ext_portal": "http://products.uslas.renware.eu/",
+            "project_code_reg_no": "00000104",
+            "project_crt_version": "0.1 preview dev-inside",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 30,
+            "section_content_type1": [
+                "",
+                "",
+                "",
+                "",
+                ""
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "080e8d5f-1f32-42c0-86c0-86b21d41f531",
+            "section_category": "MIDDLE TIER DISTRIBUTED COMPUTING FRAMEWORKS",
+            "section_sname": "BFS",
+            "section_dname": "Business Framework System",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000107",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 10,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "a6737e01-f128-4319-af85-05bc50252b92",
+            "section_category": "MIDDLE TIER DISTRIBUTED COMPUTING FRAMEWORKS",
+            "section_sname": "NRODEVFD",
+            "section_dname": "Network Read Only Devices Failure Detection",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000111",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 40,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "88658b81-f0eb-4b69-84ce-575fee454d58",
+            "section_category": "MIDDLE TIER IDENTITY MANAGEMENT",
+            "section_sname": "GACCNET",
+            "section_dname": "Gentleman Agreements Certification & Confirmation Network",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000116",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 10,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "86116015-3574-49ef-be14-193c35120ba8",
+            "section_category": "MIDDLE TIER DATA GUARDING & ACCESS",
+            "section_sname": "IERARHI3",
+            "section_dname": "Hierachy Tree of Rights - the eye from pyramid",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000115",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 10,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "4c7d3abb-c36e-4099-8a08-dbdd136aeb63",
+            "section_category": "IN RESEARCH AREAS IN WORK",
+            "section_sname": "PYTREGRA",
+            "section_dname": "A Python Tree & Graphs Light Library",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000121",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 99,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "0b7cdbb9-2941-4b24-9c5f-bc51c4afa850",
+            "section_category": "BUSINESS SUPPORT OPERATIONS",
+            "section_sname": "YACS",
+            "section_dname": "Yet Another Content System",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000112",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 40,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "ee846083-9f7c-42ac-b5a6-4117c970fc6d",
+            "section_category": "EMBEDDED & INTERNET OF THINGS SYSTEMS SECURITY, PROTECTION & SUPPORT",
+            "section_sname": "MyNIKA",
+            "section_dname": "My Nightguard and Inventory Keeper Agent",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000114",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/MyNIKAlogo.svg",
+            "section_seqord": 10,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "9c06c7e7-e589-4f08-a963-e9ca75c1c148",
+            "section_category": "MIDDLE TIER DISTRIBUTED COMPUTING FRAMEWORKS",
+            "section_sname": "GRID-MAP",
+            "section_dname": "Digital Light Grid Map for Indoor Orientation",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000125",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 40,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        },
+        {
+            "section_ID": "2273c299-680d-4c1d-a89b-d3b54f33e42a",
+            "section_category": "BUSINESS CORE OPERATIONS",
+            "section_sname": "PRIDOCO",
+            "section_dname": "Primary documents collection, validation and planning",
+            "project_released": true,
+            "ext_portal": "http://pridoco.renware.eu/",
+            "project_code_reg_no": "00000127",
+            "project_crt_version": "aqua 1.0 previe w dev-inside",
+            "product_logo": "pictures/PRIDOCOlogo.png",
+            "section_seqord": 40,
+            "section_content_type1": [
+                "130.01-SKIT - 00000127 PRIDOCO data-sheet EN.pdf",
+                "http://pridoco.renware.eu/",
+                "content/PRIDOCO_objectives.html",
+                "content/PRIDOCO_features.html",
+                "content/PRIDOCO_roadmap.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "SMB Small & Medium Business Edition",
+                    "product_opsysreq": "Linux",
+                    "product_license": "GNU AFFERO GPL",
+                    "product_support": "2 days",
+                    "product_download": "http://pridoco.renware.eu/",
+                    "product_manuals": "http://pridoco.renware.eu/"
+                },
+                {
+                    "product_edition_code": "EX Extended Edition",
+                    "product_opsysreq": "Linux",
+                    "product_license": "GNU AFFERO GPL",
+                    "product_support": "n/a",
+                    "product_download": "http://pridoco.renware.eu/",
+                    "product_manuals": "http://pridoco.renware.eu/"
+                }
+            ]
+        },
+        {
+            "section_ID": "eda832ea-c2f2-41dd-9072-029a9e1cbcb5",
+            "section_category": "BUSINESS CORE OPERATIONS",
+            "section_sname": "COSANA",
+            "section_dname": "Comprehensive Sales Analysis & Review",
+            "project_released": false,
+            "ext_portal": "",
+            "project_code_reg_no": "00000128",
+            "project_crt_version": "n/a",
+            "product_logo": "pictures/_na_logo.png",
+            "section_seqord": 40,
+            "section_content_type1": [
+                "WE_ARE_SORRY.pdf",
+                "wip_uc_911",
+                "content/_wip.html",
+                "content/_wip.html",
+                "content/_wip.html"
+            ],
+            "section_content_type2": [
+                {
+                    "product_edition_code": "n/a",
+                    "product_opsysreq": "n/a",
+                    "product_license": "n/a",
+                    "product_support": "n/a",
+                    "product_download": "wip_uc_911",
+                    "product_manuals": "wip_uc_911"
+                }
+            ]
+        }
+    ]
+}
