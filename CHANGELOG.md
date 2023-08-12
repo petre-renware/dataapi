@@ -35,7 +35,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * wip...
 
-* 230812piu_d fixed bug at `.../data_sources/articles/articles_register.json` key `meta_inf0` renamed `meta_info`
+* 230812piu_d fixed bug at `doc_src/data_sources/articles/articles_register.json` key `meta_inf0` renamed `meta_info` and upd key `last_update`
 * 230812piu_c add new JSON to `index.md` page and keep ref to old one and moved DEPRECATED VERSIONS to a different page accessible from navigator
 * 230812piu_b add `meta_inf` key with (name, description, version, last update) sub-keys to `product_register` & rename old key for payload to `data`
 * 230812piu_a moved `products_register` transform its payload data to array (list)
