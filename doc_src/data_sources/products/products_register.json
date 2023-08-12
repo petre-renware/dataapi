@@ -1,5 +1,11 @@
 {
-    "product_desc": [
+    "meta_info": {
+		"last_update": "2023-08-12",
+		"version": "1.0.0",
+		"name": "products",
+		"description": "Products Register"
+	},
+    "data": [
         {
             "section_ID": "fb4841be-6643-4f63-a83d-8f195ebb9dcf",
             "section_category": "BUSINESS CORE OPERATIONS",
