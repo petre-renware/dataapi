@@ -1,7 +1,7 @@
 {
-    "meta_inf0": {
+    "meta_info": {
         "version": "1.0.0",
-        "last_update": "2023-08-11",
+        "last_update": "2023-08-12",
         "name": "articles",
         "description": "Articles Register"
     },
