@@ -55,7 +55,7 @@
 * [Products Register 1.0.0](data_sources/products/products_register.json)
 <small markdown>
 ??? info "Route details"
-    * path: `...base_url.../data_sources/products/products_register.json`
+    * path: `<BASE_URL>/data_sources/products/products_register.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
@@ -64,7 +64,7 @@
 * [Products Categories 1.0.0](data_sources/products/product_categories.json)
 <small markdown>
 ??? info "Route details"
-    * path: `...base_url.../data_sources/products/product_categories.json) `
+    * path: `<BASE_URL>/data_sources/products/product_categories.json) `
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
@@ -88,7 +88,7 @@
 
 ## Notes & rules
 
-* by `...base_url...` is understood the static URL part of this site, ie **`http://dataapi.renware.eu/`**. Usual followed by a path to specific data
+* by `<BASE_URL>` is understood the static URL part of this site, ie **`http://dataapi.renware.eu/`**. Usual followed by a path to specific data
 
 * for [deprecated version go here](deprecated_version.md)
 
