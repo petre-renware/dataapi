@@ -14,7 +14,7 @@
 * [Articles Register 1.0.0](data_sources/articles/articles_register.json)
 <small markdown>
 ??? info "route details"
-    * path: `_BASE_URL_/data_sources/articles/articles_register.json`
+    * path: `<BASE_URL>` `/data_sources/articles/articles_register.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
