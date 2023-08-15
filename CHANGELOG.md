@@ -36,12 +36,15 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 * tbd.... EUMA documentation for Data API final doc
 
 
-
-### 1.0.2 release products JSON broken down to entity level (#NOTE wip...)
-
-* tbd.... EUMA documentation for Data API as skeleton
+### ... 1.0.3-??? (#NOTE future income)
 
 * wip...
+
+### 1.0.2-beta products JSON broken down to entity level (#NOTE wip...)
+
+* tbd... review & release
+
+* wip.... 230815piu_d EUMA documentation for Data API as skeleton
 
 * 230815piu_c test & review of _Products Register_ abd _Product Categories_ then release
 * 230815piu_b new entity for _Product Categories_ in `.../products/product_categories.json`
