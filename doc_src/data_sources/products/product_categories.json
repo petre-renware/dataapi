@@ -1,0 +1,19 @@
+{
+    "meta_info": {
+		"last_update": "2023-08-15",
+		"version": "1.0.0",
+		"name": "product_categories",
+		"description": "Product Categories"
+	},
+    "data": [
+	    "BUSINESS CORE OPERATIONS",
+	    "BUSINESS ANALYTICS",
+	    "BUSINESS SUPPORT OPERATIONS",
+	    "MIDDLE TIER DISTRIBUTED COMPUTING FRAMEWORKS",
+	    "MIDDLE TIER IDENTITY MANAGEMENT",
+	    "MIDDLE TIER DATA GUARDING & ACCESS",
+	    "IN RESEARCH AREAS IN WORK",
+	    "EMBEDDED & INTERNET OF THINGS SYSTEMS SECURITY",
+	    "PROTECTION & SUPPORT"
+    ]
+}

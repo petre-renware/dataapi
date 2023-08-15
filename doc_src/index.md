@@ -11,29 +11,29 @@
 
 ## Learning data
 
-* [Articles register 1.0.0](data_sources/articles/articles_register.json)
+* [Articles Register 1.0.0](data_sources/articles/articles_register.json)
 <small markdown>
 ??? info "route details"
-    * path: `...base_url.../data_sources/articles/articles_register.json`
+    * path: `...BASE_URL.../data_sources/articles/articles_register.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
 
 
 
-* [Article categories 1.0.0](data_sources/articles/article_categories.json)
+* [Article Categories 1.0.0](data_sources/articles/article_categories.json)
 <small markdown>
 ??? info "route details"
-    * path: `...base_url.../data_sources/articles/article_categories.json`
+    * path: `...BASE_URL.../data_sources/articles/article_categories.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
 
 
-* MB APM course [UNIT 01](data_sources/mb-apm-data/unit_01.json)
+* [MB APM course UNIT 01](data_sources/mb-apm-data/unit_01.json)
 <small markdown>
 ??? info "route details"
-    * path: `...base_url.../data_sources/mb-apm-data/unit_01.json`
+    * path: `...BASE_URL.../data_sources/mb-apm-data/unit_01.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
@@ -52,16 +52,23 @@
 
 ## Products & Solutions
 
-
-* [Products register 1.0.0](data_sources/products/products_register.json)
+* [Products Register 1.0.0](data_sources/products/products_register.json)
 <small markdown>
 ??? info "Route details"
-    * path: `...base_url.../data_sources/products/products_register.json`
+    * path: `...BASE_URL.../data_sources/products/products_register.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
 
 
+* [Products Categories 1.0.0](data_sources/products/product_categories.json)
+<small markdown>
+??? info "Route details"
+    * path: `...BASE_URL.../data_sources/products/product_categories.json) `
+    * type:  `HTTP REST`
+    * methods: `GET`
+</small>
+ 
 
 
 
@@ -81,7 +88,7 @@
 
 ## Notes & rules
 
-* by `...base_url...` is understood the static URL part of this site, ie **`http://dataapi.renware.eu/`**. Usual followed by a path to specific data
+* by `<...BASE_URL...>` is understood the static URL part of this site (ie `server name`, `host name`), more exactly **`http://dataapi.renware.eu/`**. Usual followed by a path to specific data
 
 * for [deprecated version go here](deprecated_version.md)
 
