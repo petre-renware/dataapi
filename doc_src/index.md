@@ -88,7 +88,7 @@
 
 ## Notes & rules
 
-* by `<...BASE_URL...>` is understood the static URL part of this site, ie **`http://dataapi.renware.eu/`**. Usual followed by a path to specific data
+* by `<...BASE_URL...>` is understood the static URL part of this site (ie `server name`, `host name`), more exactly **`http://dataapi.renware.eu/`**. Usual followed by a path to specific data
 
 * for [deprecated version go here](deprecated_version.md)
 
