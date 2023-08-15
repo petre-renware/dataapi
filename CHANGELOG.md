@@ -42,6 +42,8 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * wip...
 
+* ... 230815piu_b ...
+
 * 230815piu_a made a nav entry for EUMA documentation
 * 230812piu_d fixed bugs: 
     * at `doc_src/data_sources/articles/articles_register.json` key `meta_inf0` renamed `meta_info` and upd key `last_update`
