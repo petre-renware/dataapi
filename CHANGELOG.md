@@ -44,7 +44,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * tbd... review & release
 
-* wip.... 230815piu_d EUMA documentation for Data API as skeleton
+* wip.... 230815piu_d EUMA documentation for Data API as skeleton and refer it in navigation
 
 * 230815piu_c test & review of _Products Register_ abd _Product Categories_ then release
 * 230815piu_b new entity for _Product Categories_ in `.../products/product_categories.json`
