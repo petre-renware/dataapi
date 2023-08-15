@@ -53,6 +53,15 @@
 ## Products & Solutions
 
 
+* [Products categories 1.0.0](data_sources/products/product_categories.json)
+<small markdown>
+??? info "Route details"
+    * path: `...base_url.../data_sources/products/product_categories.json) `
+    * type:  `HTTP REST`
+    * methods: `GET`
+</small>
+
+
 * [Products register 1.0.0](data_sources/products/products_register.json)
 <small markdown>
 ??? info "Route details"
