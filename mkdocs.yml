@@ -5,6 +5,7 @@ copyright: 'Copyright (c) RENware Software Systems'
 
 nav:
     - Home: 'index.md'
+    - End User Manual: 'wip_page.md' #TODO create EUMA documentation
     - DEPRECATED VERSIONS: 'deprecated_version.md'
 
 
