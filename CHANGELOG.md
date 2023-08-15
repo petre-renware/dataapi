@@ -2,8 +2,6 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 **Company Data API**
 
-* Last released version: #FIXME what was the last one?
-
 ***
 
 [TOC]
@@ -25,8 +23,17 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 ## 1.0
 
 * tbd... at a time drop or keep with name changed (as v0.99) old `articles_register.json` or move to a DEPRECATED area
+
 * tbd... at a time drop or keep with name changed (as v0.99) old `products_register.json` or move to a DEPRECATED area
 
+* tbd... make a `status` key in `meta_info` for each entity, signifying **entity status** as:
+    *  (1) `ACTIVE` entity is active at requesting time
+    *  (2) `DEPRECATED` entity is deprecated and no more updated - can contain attributes / keys no current in use
+    *  (3) `IN_DEPRECATING` entity will become obsolete by deprecation and kept for transition
+    *  for (2) and (3) types there is always an `ACTIVE` entity
+    *  this item is subject of product EUMA documentation
+
+* tbd.... EUMA documentation for Data API
 
 
 ### 1.0.2 release products JSON broken down to entity level (#NOTE wip...)
