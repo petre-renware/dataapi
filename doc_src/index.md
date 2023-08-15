@@ -11,7 +11,7 @@
 
 ## Learning data
 
-* [Articles register 1.0.0](data_sources/articles/articles_register.json)
+* [Articles Register 1.0.0](data_sources/articles/articles_register.json)
 <small markdown>
 ??? info "route details"
     * path: `...base_url.../data_sources/articles/articles_register.json`
@@ -21,7 +21,7 @@
 
 
 
-* [Article categories 1.0.0](data_sources/articles/article_categories.json)
+* [Article Categories 1.0.0](data_sources/articles/article_categories.json)
 <small markdown>
 ??? info "route details"
     * path: `...base_url.../data_sources/articles/article_categories.json`
@@ -30,7 +30,7 @@
 </small>
 
 
-* MB APM course [UNIT 01](data_sources/mb-apm-data/unit_01.json)
+* [MB APM course UNIT 01](data_sources/mb-apm-data/unit_01.json)
 <small markdown>
 ??? info "route details"
     * path: `...base_url.../data_sources/mb-apm-data/unit_01.json`
@@ -52,17 +52,7 @@
 
 ## Products & Solutions
 
-
-* [Products categories 1.0.0](data_sources/products/product_categories.json)
-<small markdown>
-??? info "Route details"
-    * path: `...base_url.../data_sources/products/product_categories.json) `
-    * type:  `HTTP REST`
-    * methods: `GET`
-</small>
-
-
-* [Products register 1.0.0](data_sources/products/products_register.json)
+* [Products Register 1.0.0](data_sources/products/products_register.json)
 <small markdown>
 ??? info "Route details"
     * path: `...base_url.../data_sources/products/products_register.json`
@@ -71,6 +61,14 @@
 </small>
 
 
+* [Products Categories 1.0.0](data_sources/products/product_categories.json)
+<small markdown>
+??? info "Route details"
+    * path: `...base_url.../data_sources/products/product_categories.json) `
+    * type:  `HTTP REST`
+    * methods: `GET`
+</small>
+ 
 
 
 
