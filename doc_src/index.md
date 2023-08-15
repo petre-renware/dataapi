@@ -14,7 +14,7 @@
 * [Articles Register 1.0.0](data_sources/articles/articles_register.json)
 <small markdown>
 ??? info "route details"
-    * path: `...base_url.../data_sources/articles/articles_register.json`
+    * path: `<BASE_URL>/data_sources/articles/articles_register.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
@@ -24,7 +24,7 @@
 * [Article Categories 1.0.0](data_sources/articles/article_categories.json)
 <small markdown>
 ??? info "route details"
-    * path: `...base_url.../data_sources/articles/article_categories.json`
+    * path: `<BASE_URL>/data_sources/articles/article_categories.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
@@ -33,7 +33,7 @@
 * [MB APM course UNIT 01](data_sources/mb-apm-data/unit_01.json)
 <small markdown>
 ??? info "route details"
-    * path: `...base_url.../data_sources/mb-apm-data/unit_01.json`
+    * path: `<BASE_URL>/data_sources/mb-apm-data/unit_01.json`
     * type:  `HTTP REST`
     * methods: `GET`
 </small>
