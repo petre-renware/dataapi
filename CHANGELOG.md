@@ -36,11 +36,11 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 
 
-### ... 1.0.3-??? (#NOTE future income)
+### 1.0.3-release (#NOTE wip...)
 
 * tbd.... EUMA documentation for Data API final doc
 
-* wip...
+* 230816piu_a partial update to EUMA documentation for Data API final doc
 
 
 
