@@ -4,7 +4,10 @@ copyright: 'Copyright (c) RENware Software Systems'
 
 
 nav:
-    - Home: 'index.md'
+    - Routes index: 'index.md'
+    - End User Manual: '880.30_EUMA_End_User_Manual.md'
+    - DEPRECATED VERSIONS: 'deprecated_version.md'
+
 
 
 
