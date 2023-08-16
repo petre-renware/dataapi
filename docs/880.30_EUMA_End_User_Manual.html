@@ -248,8 +248,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#data-format" class="md-nav__link">
-    Data format
+  <a href="#data-formats-and-meta-information" class="md-nav__link">
+    Data formats and meta information
   </a>
   
 </li>
@@ -264,6 +264,13 @@
         <li class="md-nav__item">
   <a href="#getting-the-information" class="md-nav__link">
     Getting the information
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#notes" class="md-nav__link">
+    Notes
   </a>
   
 </li>
@@ -312,9 +319,10 @@
 <ul>
 <li><a href="#end-user-manual">End User Manual</a><ul>
 <li><a href="#routes-general-rules">Routes general rules</a></li>
-<li><a href="#data-format">Data format</a></li>
+<li><a href="#data-formats-and-meta-information">Data formats and meta information</a></li>
 <li><a href="#route-methods">Route methods</a></li>
 <li><a href="#getting-the-information">Getting the information</a></li>
+<li><a href="#notes">Notes</a></li>
 </ul>
 </li>
 </ul>
@@ -322,29 +330,77 @@
 <hr />
 <h1 id="end-user-manual">End User Manual</h1>
 <p>This document presents <strong>RENware Software Systems</strong> company <strong><em>data API</em></strong> application provider. It refer the public company data.</p>
+<p><small markdown>For a better understanding read the <a href="#notes">note section at the end of document</a>.</small></p>
 <p><strong>General information:</strong></p>
 <ul>
-<li>product p/n: <code>0000-0051</code></li>
-<li>API type: <code>HTTP REST</code> for data purposes</li>
+<li><em>product name:</em> RENware Data API</li>
+<li><em>product version:</em> 1.0</li>
+<li><em>product p/n:</em> <code>0000-0051</code></li>
 </ul>
 <h2 id="routes-general-rules">Routes general rules</h2>
 <p>There are 2 kind of routes:</p>
 <ul>
 <li>
-<p>strict data GET routes, prefixed as <strong><code>.../data_sources/[entity name/object name]</code></strong></p>
+<p><strong>static</strong> data <em>GET / READ</em> routes, prefixed as
+<div class="highlight"><pre><span></span><code>&lt;BASE_URL&gt;/data_sources/[entity name][/object name]
+</code></pre></div></p>
 </li>
 <li>
-<p>"real" API routes that are able for complete <strong><em>CRUD</em></strong> operations to data, prefixed as <strong><code>.../api/&lt;entity name&gt;/&lt;operation&gt;/&lt;object name&gt;...</code></strong></p>
+<p><strong>dynamic</strong> API routes that are able for complete <em>CRUD</em> operations to data, prefixed as
+<div class="highlight"><pre><span></span><code>&lt;BASE_URL&gt;/api/&lt;entity name&gt;/[operation]/&lt;object name&gt;[?query parameters]
+</code></pre></div></p>
 </li>
 </ul>
-<p>-#TODO: explain route parameters</p>
-<p>-#TODO: other rules here ...</p>
-<h2 id="data-format">Data format</h2>
-<p>-#TODO ...JSON... ALMOST...</p>
+<p><strong>The parameters mean:</strong></p>
+<ul>
+<li>
+<p><code>BASE_URL</code> see <a href="#notes">Note 1</a></p>
+</li>
+<li>
+<p><code>entity name</code> is the name of desired data entity. This should be known and represent something like a data "cluster", a data domain, in SQL is most appropriate of "schema". There is no default value.</p>
+</li>
+<li>
+<p><code>object name</code> is the name of the data object, equivalent of "table" in SQL. This should be known and there is no default value.</p>
+</li>
+<li>
+<p><code>operation</code> is the desired data operation (ie, <code>CRUD</code> like). Operation "codes" are specific and specified for each API route. Default operation is considered the <code>GET / READ</code> one.</p>
+</li>
+<li>
+<p><code>query parameters</code> standard sequence of parameters for data querying or modifying (ie, attributes level data). Query parameters start with <code>?</code> charater followed by attributes and their values. The format for query poo parameters definition is conform to HTML standards.</p>
+</li>
+</ul>
+<p><strong>Other "good to know" rules</strong></p>
+<ul>
+<li>Dynamic API routes can have <em>query parameters</em> specified, meaning that they "knows to use" and respond accordingly.</li>
+<li>Static routes will ignore any query parameters.</li>
+</ul>
+<h2 id="data-formats-and-meta-information">Data formats and meta information</h2>
+<p>API type is <strong><code>HTTP REST</code></strong> for data purposes<strong>. That means the basic and if no otherwise specified data type is </strong><code>JSON</code><strong> returned as standard <em>HTTP header</em> and with application type </strong><code>application/json</code><strong> and </strong><code>UTF-8</code>** encoding.</p>
+<p>The JSON objects contains more data structures, but <strong>effective data is located under key <code>data</code></strong><sup>note 2</sup> which is in  mostly cases a <code>list / array</code> of other objects (effective data rows).</p>
+<p><strong>Meta information</strong></p>
+<p>JSON objects contains an embedded object / dictionary dedicated to <em>information regarding respective object</em>. This oject is at <em>first level in JSON</em> identified by key <strong>"meta_info"</strong> and has the following structure:</p>
+<div class="highlight"><pre><span></span><code>&quot;meta_info&quot;: {
+    &quot;last_update&quot;: &quot;Date as &lt;string&gt; using an ISO format, for example YYYY-MM-DD, ex; 2021-09-30&quot;,
+    &quot;version&quot;: &quot;Version as &lt;SemVer string&gt;, ex; 6.1.8, the patch number being optional&quot;,
+    &quot;name&quot;: &quot;Object code-name as &lt;string&gt;&quot;,
+    &quot;description&quot;: &quot;Object description as &lt;string&gt;&quot;
+}
+</code></pre></div>
 <h2 id="route-methods">Route methods</h2>
 <p>-#TODO ...GET... ALMOST...</p>
 <h2 id="getting-the-information">Getting the information</h2>
 <p>-#TODO explain briefly how call <code>curl</code></p>
+<p><strong><a href="index.html">Catalog of all API routes</a></strong></p>
+<h2 id="notes">Notes</h2>
+<ul>
+<li>
+<p>(1) <strong><em><code>BASE_URL</code></em></strong> represents the <code>server name</code> part of the URL, ie at current version being <code>http://dataapi.renware.eu/</code> (please be aware to not duplicate last <code>/</code> character)</p>
+</li>
+<li>
+<p>(2) <strong><em>effective data</em></strong> the effective data in data objects is also called <em>payload</em> term which is an alternate one but
+complete equivalent</p>
+</li>
+</ul>
 
 
 
