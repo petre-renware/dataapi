@@ -26,6 +26,8 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * tbd... at a time drop or keep with name changed (as v0.99) old `products_register.json` or move to a DEPRECATED area
 
+
+-#NOTE next tbd is subject of minor version change
 * tbd... make a `status` key in `meta_info` for each entity, signifying **entity status** as:
     *  (1) `ACTIVE` entity is active at requesting time
     *  (2) `DEPRECATED` entity is deprecated and no more updated - can contain attributes / keys no current in use
@@ -45,7 +47,6 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * 230816piu_c update EUMA, section _Data formats and meta information_
 * 230816piu_b update EUMA, section _Routes general rules_
------- to test up here -----
 * 230816piu_a partial update to EUMA documentation for Data API final doc
 
 
