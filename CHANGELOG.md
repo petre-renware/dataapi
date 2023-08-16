@@ -40,6 +40,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * tbd.... EUMA documentation for Data API final doc
 
+* ...230816piu_c update EUMA, section _xxx_
 * 230816piu_b update EUMA, section _Routes general rules_
 * 230816piu_a partial update to EUMA documentation for Data API final doc
 
