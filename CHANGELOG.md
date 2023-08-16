@@ -9,22 +9,17 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 # CHANGELOG
 
 <small markdown>
-* For version code structure meaning see SDEVEN methodology document (*sic !*) :)
-
-* with (F) are marked items that are features in order to be copied in a RELNOTE file
-
-* with (B) are marked items thar are bug fixed previous versions
-
-* -#NOTE ____ PUBLISHING IS MADE ON `dataapi.renware.eu` from `PUBLISHING` branch , wheen committed
+- For version code structure meaning see SDEVEN methodology document
+- with (F) are marked items that are features in order to be copied in a RELNOTE file
+- with (B) are marked items thar are bug fixed previous versions
+- -#NOTE ____ PUBLISHING IS MADE ON `dataapi.renware.eu` from `PUBLISHING` branch , wheen committed
 
 </small>
 
 
 ## 1.1
 
-* tbd... at a time drop or keep with name changed (as v0.99) old `articles_register.json` or move to a DEPRECATED area
-
-* tbd... at a time drop or keep with name changed (as v0.99) old `products_register.json` or move to a DEPRECATED area
+* tbd... use `entity_syatus` on `articles_register.json`, `products_register.json` or move to a DEPRECATED area
 
 
 -#NOTE next tbd is subject of minor version change
