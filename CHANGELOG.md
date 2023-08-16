@@ -8,7 +8,8 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 # CHANGELOG
 
-<small markdown>
+<small>
+
 - For version code structure meaning see SDEVEN methodology document
 - with (F) are marked items that are features in order to be copied in a RELNOTE file
 - with (B) are marked items thar are bug fixed previous versions
