@@ -20,7 +20,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 </small>
 
 
-## 1.0
+## 1.1
 
 * tbd... at a time drop or keep with name changed (as v0.99) old `articles_register.json` or move to a DEPRECATED area
 
@@ -35,6 +35,9 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 
 
+
+
+## 1.0
 
 ### 1.0.3-release (#NOTE wip...)
 
