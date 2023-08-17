@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#end-user-manual" class="md-skip">
+        <a href="#user-manual" class="md-skip">
           Skip to content
         </a>
       
@@ -317,7 +317,7 @@
 <p><img alt="data_api_logo" src="pictures/dataAPI_logo.png" /></p>
 <div class="toc">
 <ul>
-<li><a href="#end-user-manual">End User Manual</a><ul>
+<li><a href="#user-manual">User Manual</a><ul>
 <li><a href="#routes-general-rules">Routes general rules</a></li>
 <li><a href="#data-formats-and-meta-information">Data formats and meta information</a></li>
 <li><a href="#route-methods">Route methods</a></li>
@@ -328,7 +328,7 @@
 </ul>
 </div>
 <hr />
-<h1 id="end-user-manual">End User Manual</h1>
+<h1 id="user-manual">User Manual</h1>
 <p>This document presents <strong>RENware Software Systems</strong> company <strong><em>data API</em></strong> application provider. It refer the public company data.</p>
 <p><small markdown>For a better understanding read the <a href="#notes">note section at the end of document</a>.</small></p>
 <p><strong>General information:</strong></p>
@@ -354,7 +354,7 @@
 <p><strong>The parameters mean:</strong></p>
 <ul>
 <li>
-<p><code>BASE_URL</code> see <a href="#notes">Note 1</a></p>
+<p><code>BASE_URL</code> see <a href="#notes">note 1</a></p>
 </li>
 <li>
 <p><code>entity name</code> is the name of desired data entity. This should be known and represent something like a data "cluster", a data domain, in SQL is most appropriate of "schema". There is no default value.</p>
@@ -375,7 +375,7 @@
 <li>Static routes will ignore any query parameters.</li>
 </ul>
 <h2 id="data-formats-and-meta-information">Data formats and meta information</h2>
-<p>API type is <strong><code>HTTP REST</code></strong> for data purposes<strong>. That means the basic and if no otherwise specified data type is </strong><code>JSON</code><strong> returned as standard <em>HTTP header</em> and with application type </strong><code>application/json</code><strong> and </strong><code>UTF-8</code>** encoding.</p>
+<p>API type is <strong><code>HTTP REST</code> for data purposes</strong>. That means the basic and if not otherwise specified, data type is <strong><code>JSON</code></strong> returned as standard <em>HTTP header</em> with application type <strong><code>application/json</code></strong> and <strong><code>UTF-8</code></strong> encoding.</p>
 <p>The JSON objects contains more data structures, but <strong>effective data is located under key <code>data</code></strong><sup>note 2</sup> which is in  mostly cases a <code>list / array</code> of other objects (effective data rows).</p>
 <p><strong>Meta information</strong></p>
 <p>JSON objects contains an embedded object / dictionary dedicated to <em>information regarding respective object</em>. This oject is at <em>first level in JSON</em> identified by key <strong>"meta_info"</strong> and has the following structure:</p>
@@ -387,10 +387,21 @@
 }
 </code></pre></div>
 <h2 id="route-methods">Route methods</h2>
-<p>-#TODO ...GET... ALMOST...</p>
+<p>The route HTTP methods are:</p>
+<ul>
+<li>
+<p>for <em>static routes</em> always is <strong>GET</strong><sup>note 3</sup></p>
+</li>
+<li>
+<p>for <em>dynamic routes</em> all methods are available and are used by each route as needed according to design specs. The <em><a href="index.html">API routes catalog</a></em> present available methods for each route</p>
+</li>
+</ul>
 <h2 id="getting-the-information">Getting the information</h2>
-<p>-#TODO explain briefly how call <code>curl</code></p>
-<p><strong><a href="index.html">Catalog of all API routes</a></strong></p>
+<p>Information from API can be obtained by making a <em>request</em> from corresponding route (<a href="#routes-general-rules">see "Routes general rules" section</a>).</p>
+<p>The request can be made from a program (using its specific libraries and rules) or at operating system level by using <em><code>curl</code></em> CLI tool available on usual operating systems. The detailed description of <code>curl</code> tool can be found on many sites, <a href="https://man7.org/linux/man-pages/man1/curl.1.html">for example this one</a>.</p>
+<p>The <strong><a href="index.html">Catalog of all API routes</a></strong> should be consulted to see what information are available and corresponding routes.</p>
+<p><strong>Authentications</strong></p>
+<p>This API, containing only public data, requires no authentication. However, not public or highly sensitive data can be encrypted and a password is be required to decrypt it.</p>
 <h2 id="notes">Notes</h2>
 <ul>
 <li>
@@ -399,6 +410,9 @@
 <li>
 <p>(2) <strong><em>effective data</em></strong> the effective data in data objects is also called <em>payload</em> term which is an alternate one but
 complete equivalent</p>
+</li>
+<li>
+<p>(3) static routes are served normally by a HTTP server type CGI and only serve files from an established directory know as <code>web root directory</code>, so there is any possibility to process other kind of methods tban <em>GET</em></p>
 </li>
 </ul>
 
