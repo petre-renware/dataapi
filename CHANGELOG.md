@@ -39,7 +39,9 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 ### 1.0.3-release (#NOTE wip...)
 
-* tbd.... update EUMA, section _xxx_
+* tbd... review doc & release version
+
+* ... 230817piu_a update EUMA, section _Getting the information_
 
 * 230816piu_d update EUMA, section _Route methods_
 * 230816piu_c update EUMA, section _Data formats and meta information_
