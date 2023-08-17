@@ -41,8 +41,7 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 * tbd... review doc & release version
 
-* ... 230817piu_a update EUMA, section _Getting the information_
-
+* 230817piu_a update EUMA, section _Getting the information_
 * 230816piu_d update EUMA, section _Route methods_
 * 230816piu_c update EUMA, section _Data formats and meta information_
 * 230816piu_b update EUMA, section _Routes general rules_
