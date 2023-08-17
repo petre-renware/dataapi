@@ -8,24 +8,22 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 # CHANGELOG
 
-<small markdown>
-* For version code structure meaning see SDEVEN methodology document (*sic !*) :)
+<small>
 
-* with (F) are marked items that are features in order to be copied in a RELNOTE file
-
-* with (B) are marked items thar are bug fixed previous versions
-
-* -#NOTE ____ PUBLISHING IS MADE ON `dataapi.renware.eu` from `PUBLISHING` branch , wheen committed
+- For version code structure meaning see SDEVEN methodology document
+- with (F) are marked items that are features in order to be copied in a RELNOTE file
+- with (B) are marked items thar are bug fixed previous versions
+- -#NOTE ____ PUBLISHING IS MADE ON `dataapi.renware.eu` from `PUBLISHING` branch , wheen committed
 
 </small>
 
 
-## 1.0
+## 1.1
 
-* tbd... at a time drop or keep with name changed (as v0.99) old `articles_register.json` or move to a DEPRECATED area
+* tbd... use `entity_syatus` on `articles_register.json`, `products_register.json` or move to a DEPRECATED area
 
-* tbd... at a time drop or keep with name changed (as v0.99) old `products_register.json` or move to a DEPRECATED area
 
+-#NOTE next tbd is subject of minor version change
 * tbd... make a `status` key in `meta_info` for each entity, signifying **entity status** as:
     *  (1) `ACTIVE` entity is active at requesting time
     *  (2) `DEPRECATED` entity is deprecated and no more updated - can contain attributes / keys no current in use
@@ -34,13 +32,9 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
     *  this item is subject of product EUMA documentation
 
 
+### 1.1.0-release (#NOTE wip...)
 
-
-### ... 1.0.3-??? (#NOTE future income)
-
-* tbd.... EUMA documentation for Data API final doc
-
-* wip...
+* wip... (last entry for 230817piu_b)
 
 
 
@@ -48,6 +42,17 @@ hi<small>(c) 2021 - 2023 RENware Software Systems</small>
 
 
 
+
+## 1.0
+
+### 1.0.3-release (230817 06:00)
+
+* 230817piu_b review & update all project for release
+* 230817piu_a update EUMA, section _Getting the information_
+* 230816piu_d update EUMA, section _Route methods_
+* 230816piu_c update EUMA, section _Data formats and meta information_
+* 230816piu_b update EUMA, section _Routes general rules_
+* 230816piu_a partial update to EUMA documentation for Data API final doc
 
 
 
